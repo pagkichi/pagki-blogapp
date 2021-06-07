@@ -6,6 +6,7 @@ class ArticlesController < ApplicationController
         @articles = Article.all
     end
     def show
+        @comments = @article.comments
     end
     def new
         @article = current_user.articles.build
