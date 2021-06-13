@@ -1,0 +1,19 @@
+{
+    "name": "blog app",
+    "description": "This is blogapp",
+    "keywords": [],
+    "website": "",
+    "repository": "https://github.com/pagkichi/pagki-blogapp.git",
+    "env": {},
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "heroku/ruby"
+        }
+    ]
+}
